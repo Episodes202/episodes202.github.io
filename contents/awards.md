@@ -1,3 +1,3 @@
-- 校级一等奖学金, 2022.  
-
-- Outstanding Graduation Thesis, XXX University, 2023. 
+- 2024–2025 学年 国家奖学金
+- 2024–2025 学年 山东大学一等学业奖学金
+- CET-6 大学英语六级证书
