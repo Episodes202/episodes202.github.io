@@ -1,21 +1,31 @@
-### **Software Engineer Intern**  
-**January 2025 – June 2025 | ByteDance**  
+### CNN 手写数字图像识别系统
+**技术栈：** Python · PyTorch · OpenCV · MNIST  
+**时间：** 2024.11 – 2024.12
 
-Worked on the development and optimization of large-scale recommendation systems, focusing on algorithm improvements and system efficiency enhancements. Contributed to real-time data processing pipelines and model optimization for personalized content delivery.
+- 搭建多层卷积神经网络，基于 MNIST 标准数据集完成手写数字图像分类训练。
+- 调整网络池化层与激活函数结构，优化模型收敛速度，提升小样本识别准确率。
+- 开发本地图片上传预测功能，并配套损失函数、准确率可视化绘图工具。
 
-#### Key Contributions:  
-- Developed and optimized recommendation algorithms to enhance user engagement and content relevance.  
-- Designed and implemented real-time data processing workflows to improve model inference efficiency.  
-- Conducted A/B testing and performance analysis to refine recommendation strategies based on user behavior data.  
+### 基于 NumPy 从零实现 Adam 优化器与单神经元二分类系统
+**技术栈：** Python · NumPy · Matplotlib  
+**时间：** 2025.02 – 2025.02
 
----
+- 不依赖 PyTorch 等深度学习框架，仅基于 NumPy 从零实现单层神经元二分类模型。
+- 完整实现 Adam 优化器数学逻辑，推导二分类交叉熵损失梯度传播公式。
+- 构造二维红蓝特征数据集完成模型训练，可视化分类决策边界，对比 SGD 与 Adam 优化器收敛性能。
 
-### **软件工程师实习生**  
-**2025年1月 – 2025年6月 | 字节跳动**  
+### PyTorch 自动求导与多层前馈神经网络训练系统
+**技术栈：** Python · PyTorch · NumPy · Matplotlib  
+**时间：** 2025.03 – 2025.03
 
-负责大规模推荐系统的开发与优化，专注于算法改进和系统效率提升。参与实时数据处理管道的构建，并优化模型推理流程，以提升个性化内容推荐效果。
+- 搭建 PyTorch 计算图，分析 Autograd 自动求导运行原理。
+- 基于 MNIST 手写数字数据集构建多层前馈神经网络并完成分类训练。
+- 实时追踪训练过程中的梯度与损失变化并进行可视化，总结梯度计算、反向传播与参数更新全过程。
 
-#### 主要贡献:  
-- 研发并优化推荐算法，提高用户互动率和内容相关性。  
-- 设计并实现实时数据处理流程，提升模型推理的计算效率。  
-- 进行A/B测试与性能分析，基于用户行为数据优化推荐策略。
+### 深层神经网络初始化与残差结构优化对比实验
+**技术栈：** Python · PyTorch · Matplotlib  
+**时间：** 2025.04 – 2025.04
+
+- 构建深度全连接网络，对比 Normal 与 Xavier 参数初始化策略对梯度传播的影响。
+- 实现 Gradient Norm（梯度范数）计算与可视化，量化分析网络训练稳定性。
+- 引入残差连接优化深层网络，对比有无残差结构的训练收敛效果，验证残差连接缓解深层网络优化难题的作用，并生成多组实验结果图表。
